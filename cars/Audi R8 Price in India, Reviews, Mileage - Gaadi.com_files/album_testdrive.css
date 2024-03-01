@@ -1,0 +1,142 @@
+/*=====================Test Drive=============================*/
+#lf_container {
+    box-shadow: 0 0 8px #000;
+    margin: 0;
+    position: relative;
+    width:380px;
+	min-height:280px;
+	z-index:10000;
+	padding:10px;
+	background:url("../css_images/bg90per.png") repeat scroll 0 0 transparent;
+	
+}
+#lf_main {
+    width:100%;
+}
+#lf_close{
+	height: 32px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    width: 32px;
+	cursor:pointer;
+}
+
+#lf_wrap01{}
+
+.inp_box1 {
+    border: medium none;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 5px 0 0;
+    padding: 7px 4px;
+    vertical-align: middle;
+}
+.drop_box1{
+	border: 1px solid #ACACAC;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 5px 0 0;
+    padding: 4px 4px;
+    vertical-align: middle;
+	font:12px Arial, Helvetica, sans-serif;
+	color:#666;}
+
+
+.lf_testdrive_section{height:300px; position:relative;}
+.lf_testdrive_section .head02{ margin:0px -10px 10px; padding:10px 10px 10px; font:normal 19px/19px 'Segoe UI','Proxima Nova','Helvetica Neue','Helvetica',Arial,sans-serif !important; color:#fff !important; background:#2f3336; border-bottom:3px solid #fcc44d;}
+form{ margin:0px; padding:0px;}
+fieldset{margin:0px; padding:0px; border:none;}
+fieldset.tdrive_form{
+    float: left;
+    width: 360px;
+}
+fieldset.tdrive_form dl{
+    clear: both;
+    float: left;
+    height: 30px;
+    margin: 0 0 10px;
+    width: 360px;
+}
+fieldset.tdrive_form dl dt{
+    float: left;
+    font: 14px 'Segoe UI','Proxima Nova','Helvetica Neue','Helvetica',Arial,sans-serif;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+}
+fieldset.tdrive_form dl dd {
+    float: left;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 220px;
+}
+fieldset.tdrive_form .inp_box1 {
+    float: left;
+    height: 15px;
+    position: relative;
+    z-index: 10;
+}
+fieldset.tdrive_form .drop_box1 {
+    height: 28px;
+}
+.button_Submit {
+    background: url("../css_images/bg_btn.png") repeat-x scroll 0 0 #E56A31;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font: bold 13px/20px Helvetica,"Trebuchet MS",Arial,sans-serif;
+    padding: 5px;
+    text-decoration: none;
+    width: auto;
+}
+fieldset.tdrive_form .formError {
+    clear: both;
+    color: #C83139;
+    cursor: default;
+    float: left;
+    font: italic 10px Georgia,"Times New Roman",Times,serif;
+    left: 0;
+    margin-left: 0;
+    padding: 3px;
+    position: absolute;
+    top: 25px;
+    width: 151px;
+    z-index: 1;
+}
+
+fieldset.tdrive_form .button_Submit {
+    margin-left:90px;
+    padding: 5px 25px;
+}
+fieldset.tdrive_form .tdrive_Submit:hover {
+    background: none repeat scroll 0 0 #950810;
+}
+.RequiredFields {
+    color: #E40E0E;
+    font-size: 11px !important;
+    font-weight: normal;
+}
+.nothanks{ float:left; padding:6px 6px; text-decoration:underline;}
+.nothanks:hover{text-decoration:none;}
+.thanksmsg {
+    color: #4B9434;
+    font: bold 14px/14px 'Segoe UI','Proxima Nova','Helvetica Neue','Helvetica',Arial,sans-serif;
+    left: 141px;
+    margin: 0;
+    padding: 0 0 6px;
+    position: absolute;
+    text-align: center;
+    top: 34px;
+}
+#frmContainer .msg11{
+color: #307D28;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+/*=====================End Test Drive=============================*/
+
